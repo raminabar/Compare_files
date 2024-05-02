@@ -69,5 +69,5 @@ def compare_files(file1, file2, output_file):
 
     st.write("Missing Counts:")
     st.dataframe(df3)
-# Example usage:
+
 compare_files("r1.csv", "r2.csv", "output1.xlsx")
