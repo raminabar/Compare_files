@@ -23,7 +23,7 @@ def compare_files(file1, file2, output_file):
     print(r1_missing_count)
     print(r2_missing_count)
 
-    data3 = {'mismatch': ['r1', 'r2'],
+    data3 = {'table': ['r1', 'r2'],
             'row_count': [r1_missing_count, r2_missing_count]}
 
     # get the columns as a list
